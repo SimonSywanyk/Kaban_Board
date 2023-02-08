@@ -1,8 +1,8 @@
 .kanban {
     display: flex;
     padding: 30px;
-    background: #009578;
-    border-radius: 5px;
+    background: #cbd5e1;
+    min-height: 500px;
 }
 
 .kanban * {
@@ -19,9 +19,9 @@
 
 .kanban__column-title {
     margin-bottom: 20px;
-    font-size: 30 px;
+    font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: black;
     user-select: none;
     text-align: center;
 }
@@ -35,13 +35,13 @@
 }
 
 .kanban__dropzone {
-    height: 20px;
+    height: 30px;
     transition: background 0.15s, height 0.15s;
 }
 
 .kanban__dropzone--active {
-    height: 40px;
-    background: rgba(0,0,0,0.25);
+    height: 25px;
+    background: rgba(0,0,0,0.3);
 }
 
 .kanban__add-item {
@@ -49,7 +49,7 @@
     padding: 10px 0;
     font-size: 16px;
     color: white;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     border: none;
     border-radius: 5px;
     cursor: pointer;
