@@ -33,8 +33,8 @@ export default class Column {
 
         return range.createContextualFragment(`
             <div class="kanban__column">
+                <button class="kanban__add-item bg-slate-800" type="button">+ Add</button>
                 <div class="kanban__column-title"></div>
-                <button class="kanban__add-item" type="button">+ Add</button>
                 <div class="kanban__column-items"></div>
             </div>
             
